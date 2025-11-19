@@ -1,0 +1,73 @@
+/* Global Styles */
+body {
+    font-family: "Poppins", sans-serif;
+    color: #333;
+    background: #f8f9fa;
+  }
+  
+  .section-heading {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    text-align: center;
+  }
+  
+  /* Masthead */
+  .masthead {
+    height: 60vh;
+    background: linear-gradient(135deg, #6c63ff, #c9c0ff);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+  }
+  
+  .masthead h1 {
+    font-size: 3rem;
+  }
+  
+  .masthead p {
+    font-size: 1.25rem;
+  }
+  
+  /* Timeline / Experience */
+  .timeline .timeline-item {
+    border-left: 3px solid #6c63ff;
+    padding-left: 1rem;
+  }
+  
+  /* Cards (Projects) */
+  .card {
+    border: none;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  }
+  
+  .card-title {
+    font-weight: 600;
+  }
+  
+  /* Contact Form */
+  #contactForm input,
+  #contactForm textarea {
+    border-radius: .25rem;
+    border: 1px solid #ced4da;
+  }
+  
+  #contactForm button.btn {
+    background: #6c63ff;
+    border-color: #6c63ff;
+  }
+  
+  #contactForm button.btn:hover {
+    background: #5749d0;
+    border-color: #5749d0;
+  }
+  
+  /* Footer */
+  footer {
+    margin-top: 2rem;
+  }
+  
+  .footer p {
+    margin: 0;
+  }
+  

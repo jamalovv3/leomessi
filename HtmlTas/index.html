@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Personal Site</title>
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+  <!-- Font Awesome (icons) -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body id="page-top">
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top" id="mainNav">
+    <div class="container">
+      <a class="navbar-brand" href="#page-top">Your Name</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#experience">Experience</a></li>
+          <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Header / Hero -->
+  <header class="masthead text-center text-white">
+    <div class="container d-flex align-items-center flex-column">
+      <h1 class="mb-0">Hello, I'm <strong>Your Name</strong></h1>
+      <p class="mt-2">Developer • Designer • Creator</p>
+      <a class="btn btn-primary btn-lg mt-4" href="#contact">Get In Touch</a>
+    </div>
+  </header>
+
+  <!-- About Section -->
+  <section id="about" class="py-5">
+    <div class="container">
+      <h2 class="section-heading">About Me</h2>
+      <div class="row">
+        <div class="col-lg-4">
+          <img src="https://via.placeholder.com/300" alt="About me image" class="img-fluid rounded" />
+        </div>
+        <div class="col-lg-8">
+          <p>I am a developer with experience in building web applications. I love to design and code beautiful and functional things.</p>
+          <ul>
+            <li><strong>Email:</strong> you@example.com</li>
+            <li><strong>Location:</strong> Your City, Country</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Experience Section -->
+  <section id="experience" class="py-5 bg-light">
+    <div class="container">
+      <h2 class="section-heading">Experience</h2>
+      <div class="timeline">
+        <div class="timeline-item mb-4">
+          <h5>Senior Developer — Company Name (2022–Present)</h5>
+          <p>Describe your role, projects, and achievements.</p>
+        </div>
+        <div class="timeline-item mb-4">
+          <h5>Junior Developer — Another Company (2020–2022)</h5>
+          <p>Describe your tasks and what you learned.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="py-5">
+    <div class="container">
+      <h2 class="section-heading">Projects</h2>
+      <div class="row">
+        <div class="col-md-6 mb-4">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Project One</h5>
+              <p class="card-text">Short description of the project.</p>
+              <a href="#" class="btn btn-outline-primary">View Project</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 mb-4">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Project Two</h5>
+              <p class="card-text">Short description of another project.</p>
+              <a href="#" class="btn btn-outline-primary">View Project</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="py-5 bg-light">
+    <div class="container">
+      <h2 class="section-heading">Contact Me</h2>
+      <div class="row">
+        <div class="col-lg-8">
+          <form id="contactForm">
+            <div class="mb-3">
+              <input type="text" class="form-control" placeholder="Your Name" required />
+            </div>
+            <div class="mb-3">
+              <input type="email" class="form-control" placeholder="Your Email" required />
+            </div>
+            <div class="mb-3">
+              <textarea class="form-control" rows="5" placeholder="Your Message" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Send Message</button>
+          </form>
+        </div>
+        <div class="col-lg-4 text-center">
+          <h5>Follow Me</h5>
+          <a href="#" class="me-3"><i class="fab fa-twitter fa-2x"></i></a>
+          <a href="#" class="me-3"><i class="fab fa-linkedin fa-2x"></i></a>
+          <a href="#"><i class="fab fa-github fa-2x"></i></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="py-4 bg-dark text-white text-center">
+    <div class="container">
+      <p class="mb-0">© 2025 Your Name. All Rights Reserved.</p>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS bundle -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
